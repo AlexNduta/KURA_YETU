@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+android:id="@+id/m2profile"
+    android:title="Profile"
+    android:icon="@drawable/ic_profile"
+    app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/mame"
+        android:title="KURA YETU"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/m2settings"
+        android:title="settings"
+        android:icon="@drawable/ic_setting"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/m2exit"
+        android:title="exit"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/m2feedback"
+        android:title="givefeedback"
+        app:showAsAction="never"/>
+</menu>
+
